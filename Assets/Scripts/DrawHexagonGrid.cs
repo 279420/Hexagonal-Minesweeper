@@ -60,7 +60,7 @@ public class DrawHexagonGrid : MonoBehaviour {
 				//i is y starting from top
 				//if(j>=Mathf.Abs((float)i-(2*layers-1)/2)-1){
 				//	if (j<=(2*layers-1)-Mathf.Abs((float)i-(2*layers-1)/2)+1) {
-				if(layers-1){
+				if(layers-1!=0){
 						temp = 0;
 						centerX = i * scale;
 						centerZ = j * scale - (i % 2 == 0 ? scale / 2 : 0);
