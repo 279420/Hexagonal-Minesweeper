@@ -76,7 +76,7 @@ public class DrawHexagonGrid : MonoBehaviour {
 						output[k]=drawHexagon (parent, centerX, centerZ, scale, 0, "hexagon_" + faceID+"_"+i + "_" + j, neighboors);
 						k++;
 				//	}
-				//}
+				}
 			}
 		}
 		return output;
